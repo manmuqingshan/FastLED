@@ -1,13 +1,12 @@
-/// @file    NoisePlusPalette.hpp
+/// @file    bilinear_expansion.cpp
 /// @brief   Demonstrates how to mix noise generation with color palettes on a
 /// 2D LED matrix
-/// @example NoisePlusPalette.hpp
 
 #include <stdint.h>
 
 #include "bilinear_expansion.h"
 #include "crgb.h"
-#include "namespace.h"
+#include "fl/namespace.h"
 #include "fl/xymap.h"
 
 namespace fl {
@@ -154,13 +153,6 @@ uint8_t bilinearInterpolatePowerOf2(uint8_t v00, uint8_t v10, uint8_t v01,
 
     return result;
 }
-
-
-/// @file    NoisePlusPalette.hpp
-/// @brief   Demonstrates how to mix noise generation with color palettes on a
-/// 2D LED matrix
-/// @example NoisePlusPalette.hpp
-
 
 
 // Floating-point version of bilinear interpolation

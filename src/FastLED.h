@@ -16,13 +16,13 @@
 /// * 1 digit for the major version
 /// * 3 digits for the minor version
 /// * 3 digits for the patch version
-#define FASTLED_VERSION 3009004
+#define FASTLED_VERSION 3009006
 #ifndef FASTLED_INTERNAL
 #  ifdef  FASTLED_SHOW_VERSION
 #    ifdef FASTLED_HAS_PRAGMA_MESSAGE
-#      pragma message "FastLED version 3.009.004"
+#      pragma message "FastLED version 3.009.006"
 #    else
-#      warning FastLED version 3.009.004  (Not really a warning, just telling you here.)
+#      warning FastLED version 3.009.006  (Not really a warning, just telling you here.)
 #    endif
 #  endif
 #endif
@@ -83,8 +83,6 @@
 #include "fastspi.h"
 #include "chipsets.h"
 #include "fl/engine_events.h"
-
-using namespace fl;
 
 FASTLED_NAMESPACE_BEGIN
 
@@ -853,9 +851,4 @@ using fl::Slider;
 #define FASTLED_TITLE(text) fl::Title g_title(text)
 #define FASTLED_DESCRIPTION(text) fl::Description g_description(text)
 #endif // FASTLED_UI
-
-
-#ifndef FASTLED_NO_AUTO_NAMESPACE
-using namespace fl;
-#endif
 

@@ -70,27 +70,37 @@ DEFAULT_EXAMPLES = [
     "Apa102HDOverride",
     "Blink",
     "Blur",
+    "Chromancer",
     "ColorPalette",
     "ColorTemperature",
     "Cylon",
     "DemoReel100",
-    "Fire2012",
     "FirstLight",
+    "Fire2012",
     "Multiple/MultipleStripsInOneArray",
     "Multiple/ArrayOfLedArrays",
     "Noise",
     "NoisePlayground",
     "NoisePlusPalette",
+    "LuminescentGrand",
     "Pacifica",
     "Pride2015",
     "RGBCalibrate",
     "RGBSetDemo",
     "RGBW",
+    "Overclock",
     "RGBWEmulated",
     "TwinkleFox",
     "XYMatrix",
-    "Gfx2Video",
-    "SdCard",
+    "fx/Gfx2Video",
+    "fx/SdCard",
+    "fx/Cylon",
+    "fx/DemoReel100",
+    "fx/TwinkleFox",
+    "fx/Fire2012",
+    "fx/NoisePlusPalette",
+    "fx/Pacifica",
+    "fx/FxEngine",
 ]
 
 EXTRA_EXAMPLES: dict[Board, list[str]] = {
@@ -115,6 +125,9 @@ def parse_args():
     )
     parser.add_argument(
         "--examples", type=str, help="Comma-separated list of examples to compile"
+    )
+    parser.add_argument(
+        "--exclude-examples", type=str, help="Examples that should be excluded"
     )
     parser.add_argument(
         "--skip-init", action="store_true", help="Skip the initialization step"
@@ -236,6 +249,16 @@ def create_concurrent_run_args(args: argparse.Namespace) -> ConcurrentRunArgs:
             extra_examples[b] = resolved_examples
     examples = args.examples.split(",") if args.examples else DEFAULT_EXAMPLES
     examples_paths = [resolve_example_path(example) for example in examples]
+    # now process example exclusions.
+    if args.exclude_examples:
+        exclude_examples = args.exclude_examples.split(",")
+        examples_paths = [
+            example
+            for example in examples_paths
+            if example.name not in exclude_examples
+        ]
+        for exclude in exclude_examples:
+            examples.remove(exclude)
     defines: list[str] = []
     if args.defines:
         defines.extend(args.defines.split(","))
