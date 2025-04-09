@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['r_0',['r',['../d6/d39/group___palette_classes.html#a4b43b0aee35624cd95b910189b3dc231',1,'TRGBGradientPaletteEntryUnion.__unnamed25__::r'],['../db/d87/group___pixel_types.html#a4b43b0aee35624cd95b910189b3dc231',1,'CRGB.__unnamed15__.__unnamed17__.__unnamed19__::r']]],
+  ['r_0',['r',['../d6/d39/group___palette_classes.html#a4b43b0aee35624cd95b910189b3dc231',1,'TRGBGradientPaletteEntryUnion.__unnamed17__::r'],['../db/d87/group___pixel_types.html#a4b43b0aee35624cd95b910189b3dc231',1,'CRGB.__unnamed15__.__unnamed19__.__unnamed21__::r']]],
   ['r1_20dirty_1',['Scaling Functions that Leave R1 Dirty',['../d0/da5/group___scaling_dirty.html',1,'']]],
   ['r_5f_2',['r_',['../de/d12/struct_color3i.html#ac82e943def8ec0943db1a50607fb6f38',1,'Color3i']]],
   ['r_5fpos_3',['r_pos',['../d4/d88/led__strip__types_8h.html#a95b120b5390a23950a581a652895dea4',1,'led_color_component_format_t::format_layout']]],
@@ -52,7 +52,7 @@ var searchData=
   ['rectangulardrawbuffer_49',['RectangularDrawBuffer',['../de/d10/classfl_1_1_rectangular_draw_buffer.html',1,'fl::RectangularDrawBuffer'],['../de/d10/classfl_1_1_rectangular_draw_buffer.html#a602cf15bfef7a9ca1fca1b77819a5cf4',1,'fl::RectangularDrawBuffer::RectangularDrawBuffer()']]],
   ['red_50',['RED',['../d5/db2/_octo_w_s2811_8ino.html#a8d23feea868a983c8c2b661e1e16972f',1,'OctoWS2811.ino']]],
   ['red_51',['Red',['../db/d87/group___pixel_types.html#aeb40a08b7cb90c1e21bd408261558b99ab35114af96aa24d28e7901b1318cc43a',1,'CRGB::Red'],['../de/d12/struct_color3i.html#a7c3c8de250985b4c6f6c50891bd5aaf2',1,'Color3i::Red()']]],
-  ['red_52',['red',['../d6/d74/namespaceanimartrix__detail.html#a1278ce22b0e505c59591cd2dcb1a3715',1,'animartrix_detail::rgb::red'],['../db/d87/group___pixel_types.html#abda9643ac6601722a28f238714274da4',1,'CRGB.__unnamed15__.__unnamed17__.__unnamed19__::red'],['../d4/d36/namespacefl.html#abda9643ac6601722a28f238714274da4',1,'fl::Pixel.__unnamed39__.__unnamed41__::red']]],
+  ['red_52',['red',['../d6/d74/namespaceanimartrix__detail.html#a1278ce22b0e505c59591cd2dcb1a3715',1,'animartrix_detail::rgb::red'],['../db/d87/group___pixel_types.html#abda9643ac6601722a28f238714274da4',1,'CRGB.__unnamed15__.__unnamed19__.__unnamed21__::red'],['../d4/d36/namespacefl.html#abda9643ac6601722a28f238714274da4',1,'fl::Pixel.__unnamed39__.__unnamed41__::red']]],
   ['red_5fanchor_5fpoint_53',['RED_ANCHOR_POINT',['../dc/d8e/namespacegen.html#af447b187b137082e492093d200516cd7',1,'gen']]],
   ['redgreenwhite_5fp_54',['RedGreenWhite_p',['../d4/d36/namespacefl.html#ab670a6238000da814209ca3e77f18521',1,'fl::RedGreenWhite_p'],['../d4/dd0/_twinkle_fox_8ino.html#a60517ed6ecbdcb5c8c523f46c0ba6590',1,'RedGreenWhite_p:&#160;TwinkleFox.ino']]],
   ['redleds_55',['redLeds',['../d1/d65/_multi_arrays_8ino.html#ab41a53948595e055472e1059af939fbf',1,'MultiArrays.ino']]],
