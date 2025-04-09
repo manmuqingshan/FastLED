@@ -170,7 +170,7 @@ var NAVTREEINDEX20 =
 "db/d8e/led__strip__spi_8h.html#a35352b41eab07bfd2617813122f675df":[7,0,1,4,1,0,0,8,0,0],
 "db/d8e/led__strip__spi_8h.html#a7cb3efad078f0ddc184f879f6163f2bc":[7,0,1,4,1,0,0,8,1,0],
 "db/d8e/led__strip__spi_8h.html#a882736e7c17e812637a7c49e1b116c64":[7,0,1,4,1,0,0,8,2],
-"db/d8e/led__strip__spi_8h.html#ab7413bb8fffd6c2ef7c250d014cafc85":[7,0,1,4,1,0,0,8,0,1],
+"db/d8e/led__strip__spi_8h.html#ac11f838f6b19cfb88abe9dc4fe4aaad5":[7,0,1,4,1,0,0,8,0,1],
 "db/d8e/led__strip__spi_8h.html#d4/d47/structled__strip__spi__config__t_8flags":[7,0,1,4,1,0,0,8,1],
 "db/d8e/led__strip__spi_8h.html#d9/dc3/structled__strip__spi__config__t":[7,0,1,4,1,0,0,8,0],
 "db/d8e/led__strip__spi_8h_source.html":[7,0,1,4,1,0,0,8],

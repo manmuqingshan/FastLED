@@ -1,10 +1,10 @@
 var ______pixeltypes_8h =
 [
     [ "fl::Pixel", "d5/d74/structfl_1_1_pixel.html", "d5/d74/structfl_1_1_pixel" ],
-    [ "fl::Pixel.__unnamed38__", "d4/d36/namespacefl.html#d6/d0f/unionfl_1_1_pixel_8____unnamed38____", [
+    [ "fl::Pixel.__unnamed39__", "d4/d36/namespacefl.html#df/de0/unionfl_1_1_pixel_8____unnamed39____", [
       [ "raw", "d4/d36/namespacefl.html#a0d57c3c33146f5661b178b0c6c82368e", null ]
     ] ],
-    [ "fl::Pixel.__unnamed38__.__unnamed40__", "d4/d36/namespacefl.html#d9/d48/structfl_1_1_pixel_8____unnamed38_____8____unnamed40____", [
+    [ "fl::Pixel.__unnamed39__.__unnamed41__", "d4/d36/namespacefl.html#db/d69/structfl_1_1_pixel_8____unnamed39_____8____unnamed41____", [
       [ "blue", "d4/d36/namespacefl.html#a48d6215903dff56238e52e8891380c8f", null ],
       [ "green", "d4/d36/namespacefl.html#a9f27410725ab8cc8854a2769c7a516b8", null ],
       [ "red", "d4/d36/namespacefl.html#abda9643ac6601722a28f238714274da4", null ]
