@@ -1,6 +1,11 @@
 
 /*
 This demo is best viewed using the FastLED compiler.
+
+Windows/MacOS binaries: https://github.com/FastLED/FastLED/releases
+
+Python
+
 Install: pip install fastled
 Run: fastled <this sketch directory>
 This will compile and preview the sketch in the browser, and enable
@@ -87,7 +92,7 @@ DEFINE_GRADIENT_PALETTE(electricBlueFirePal){
 };
 
 // Create a mapping between 1D array positions and 2D x,y coordinates
-XYMap xyMap(HEIGHT, WIDTH, SERPENTINE);
+XYMap xyMap(WIDTH, HEIGHT, SERPENTINE);
 
 void setup() {
     Serial.begin(115200);  // Initialize serial communication for debugging
@@ -96,7 +101,9 @@ void setup() {
     // - NEOPIXEL is the LED type
     // - 3 is the data pin number (for real hardware)
     // - setScreenMap connects our 2D coordinate system to the 1D LED array
-    FastLED.addLeds<NEOPIXEL, 3>(leds, HEIGHT * WIDTH).setScreenMap(xyMap);
+    fl::ScreenMap screen_map = xyMap.toScreenMap();
+    screen_map.setDiameter(0.1f);  // Set the diameter for the cylinder (0.2 cm per LED)
+    FastLED.addLeds<NEOPIXEL, 3>(leds, HEIGHT * WIDTH).setScreenMap(screen_map);
     
     // Apply color correction for more accurate colors on LED strips
     FastLED.setCorrection(TypicalLEDStrip);
